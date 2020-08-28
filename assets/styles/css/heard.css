@@ -1,0 +1,41 @@
+.img-carousel {
+    max-height: 80vh !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100vh;
+    width:100%;
+    overflow-x: hidden;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100vh;
+    width:100%;;
+}
+.title {
+    font-family:Bromello, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(37, 4, 4, 0.26);
+    color: white;
+    font: bold;
+    margin:auto;
+}
+.msj {
+    font-family:Amatic, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    font-size: 40px;
+    background-color: rgba(37, 4, 4, 0.26);
+    color: white;
+    font: bold;
+}
+
+.logo {
+    max-width: 200px;
+}

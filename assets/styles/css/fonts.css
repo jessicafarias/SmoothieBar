@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Agnetha';
+  src: url(../fonts/Agnetha.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amatic';
+  src: url(../fonts/Amatic-Bold.ttf);
+  font-size: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Bromello';
+  src: url(../fonts/bromello-Regular.ttf);
+  font-size: normal;
+}
