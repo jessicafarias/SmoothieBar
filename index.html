@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="assets/menu_images/logo.png">
   <link rel="stylesheet" href="assets/styles/css/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/styles/css/fonts.css">
   <link rel="stylesheet" href="assets/styles/css/style.css">
   <link rel="stylesheet" href="assets/styles/css/heard.css">
@@ -21,6 +20,7 @@
   
   <h1>Corazón de melon </h1>
   <header>
+    
     <div class="relative-space">
       <div id="slide_in" class="carousel slide center w-100 z-1" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -30,21 +30,34 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="img-carousel" src="assets/images/IMG_2389.png" class="d-block w-100" alt="2585">
+            <picture>
+                <source class="w-100 img-carousel" media="(max-width:440px)" srcset="assets/images/xm/IMG_2389.png">
+                <source class="w-100 img-carousel" media="(max-width:760px)" srcset="assets/images/sm/IMG_2389.png">
+              <img class="w-100 img-carousel" src="assets/images/lg/IMG_2389.png" alt="panini" >
+            </picture>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="z-3 title">Panini</h5>
               <p class="msj">Comer saludable nunca había sido tan fácil y delicioso</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="img-carousel" src="assets/images/IMG_2515.png" class="d-block w-100" alt="smoothies">
+            <picture>
+              <source class="w-100 img-carousel" media="(max-width:440px)" srcset="assets/images/xs/IMG_2515.png">
+              <source class="w-100 img-carousel" media="(max-width:760px)" srcset="assets/images/sm/IMG_2515.png">
+              <img class="w-100 img-carousel" src="assets/images/lg/IMG_2515.png" alt="smoothies" >
+            </picture>
+
             <div class="carousel-caption d-none d-md-block">
               <h5 class="z-3 title">Smoothies</h5>
               <p class="msj">Un desayuno completo acompañado de granola y coco rayado</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="img-carousel" src="assets/images/IMG_2232.png" class="d-block w-100" alt="avocado toast">
+            <picture>
+              <source class="w-100 img-carousel" media="(max-width:440px)" srcset="assets/images/xs/IMG_2232.png">
+              <source class="w-100 img-carousel" media="(max-width:768px)" srcset="assets/images/sm/IMG_2232.png">
+              <img class="w-100 img-carousel" src="assets/images/lg/IMG_2232.png" alt="avocado toast J&Q" >
+            </picture>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="z-3 title">J&Q Crown</h5>
               <p class="msj">El avocado toast siempre se acompaña con un mix de lechugas</p>
@@ -73,17 +86,19 @@
   <div class="container">
     <div class="row">
       <!-- SMOOTHIES DIV MENU AND SLIDER -->
-      <div class="col-12 col-sm-12 col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-2">
         <img class="w-100 p-3" src="assets/menu_images/smoothies.png" alt="menu smoothies">
-        <div class=menu_colection>
+        <!-- <div class=menu_colection>
           <div>
             <p class="menu_subtitle">NICECREAM DE FRUTAS, UNA FRESCA, SALUDABLE Y DELICIOSA PREPARACIÓN QUE COMPRENDE UN
               DESAYUNO COMPLETO</p>
             <div>
               <h2>FUCSIA</h2>
-              <p class="menu_content">Manzana, pera, betabel, plátano, limón, chía pudin y topping de granola, amaranto
-                y rodajas de kiwi</p>
-              <p class="price">$58</p>
+              <div>
+                <p class="menu_content">Manzana, pera, betabel, plátano, limón, chía pudin y topping de granola, amaranto
+                  y rodajas de kiwi</p>
+                <p class="price">$58</p>
+              </div>
             </div>
             <div>
               <h2>VERDE</h2>
@@ -122,7 +137,7 @@
               <p class="price">$65</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="carrousel-section">
           <div id="slide_in2" class="carousel slide center w-100 z-2" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -133,15 +148,17 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/S_Rosado.png">
-                  <img class="w-100" src="assets/images/lg/S_Rosado.png" alt="Flowers" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/S_Rosado.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/S_Rosado.png">
+                  <img class="w-100" src="assets/images/lg/S_Rosado.png" alt="Flowers" >
                 </picture>
 
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/S_Verde.png">
-                  <img class="w-100" src="assets/images/lg/S_Verde.png" alt="Flowers" style="width:auto;">
+                  <source class="w-100" media="(max-width:450px)" srcset="assets/images/xs/S_Verde.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/S_Verde.png">
+                  <img class="w-100" src="assets/images/lg/S_Verde.png" alt="Flowers" >
                 </picture>
 
                 <div class="carousel-caption d-none d-md-block">
@@ -151,8 +168,9 @@
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/S_Naranja.png">
-                  <img class="w-100" src="assets/images/lg/S_Naranja.png" alt="Flowers" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/S_Naranja.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/S_Naranja.png">
+                  <img class="w-100" src="assets/images/lg/S_Naranja.png" alt="Flowers" >
                 </picture>
               </div>
             </div>
@@ -168,9 +186,9 @@
         </div>
       </div>
       <!-- JUGOS DIV MENU AND SLIDER-->
-      <div class="col-12 col-sm-12 col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-2">
         <img class="w-100 p-3 " src="assets/menu_images/jugos.png" alt="">
-        <div class=menu_colection>
+        <!-- <div class=menu_colection>
           <div>
             <p class="menu_subtitle">NICECREAM DE FRUTAS, UNA FRESCA, SALUDABLE Y DELICIOSA PREPARACIÓN QUE COMPRENDE UN
               DESAYUNO COMPLETO</p>
@@ -217,7 +235,7 @@
               <p class="price">$65</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="jugos">
           <div id="slide_in3" class="carousel slide center w-100 z-2" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -229,26 +247,30 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/j_rojo.png">
-                  <img class="w-100" src="assets/images/lg/j_rojo.png" alt="jugo rojo" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/j_rojo.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/j_rojo.png">
+                  <img class="w-100" src="assets/images/lg/j_rojo.png" alt="jugo rojo" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/j_amarillo.png">
-                  <img class="w-100" src="assets/images/lg/j_amarillo.png" alt="jugo amarillo" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/j_amarillo.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/j_amarillo.png">
+                  <img class="w-100" src="assets/images/lg/j_amarillo.png" alt="jugo amarillo" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/j_anaranjado.png">
-                  <img class="w-100" src="assets/images/lg/j_anaranjado.png" alt="jugo quitantojo" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/j_anaranjado.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/j_anaranjado.png">
+                  <img class="w-100" src="assets/images/lg/j_anaranjado.png" alt="jugo quitantojo" >
                 </picture>
               </div>
               <div class="carousel-item">
                 <picture>
-                  <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/j_datil.png">
-                  <img class="w-100" src="assets/images/lg/j_datil.png" alt="jugo energizante" style="width:auto;">
+                  <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/j_datil.png">
+                  <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/j_datil.png">
+                  <img class="w-100" src="assets/images/lg/j_datil.png" alt="jugo energizante" >
                 </picture>
               </div>
             </div>
@@ -268,16 +290,25 @@
     <!-- ROW WAFFLE SALAD-->
     <div class="row">
       <!-- CANASTA WAFFLE SECTION -->
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-2">
         <div class="">
           <img class="w-100 p-3" src="assets/menu_images/canasta.png" alt="canasta">
-          <img class="w-100" src="assets/images/canastaJQ.png" alt="canastasinfondo">
+          <picture>
+            <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/canastaJQ.png">
+            <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/canastaJQ.png">
+            <img class="w-100" src="assets/images/lg/canastaJQ.png" alt="canasta waffle" >
+          </picture>
         </div>
       </div>
       <!-- SALAD FRUIT SECTION-->
-      <div class="col-sm-12 col-lg-6 flex-center-center flex-column">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-2 flex-center-center flex-column">
         <img class="w-100 p-3" src="assets/menu_images/ensaladas_fruta.png" alt="">
-        <img class="w-100" src="assets/images/frut.png" alt="ensalada1">
+        <picture>
+          <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/frut.png">
+          <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/frut.png">
+          <img class="w-100" src="assets/images/lg/frut.png" alt="ensalada frutal" >
+        </picture>
+        
       </div>
     </div>
     <!-- ROW AVOCADO SALAD-->
@@ -298,18 +329,24 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/images/e_goth.png" class="d-block w-100 h-75" alt="goat salad">
-            </div>
-            <div class="carousel-item">
               <picture>
-                <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/e_citrica.png">
-                <img class="w-100" src="assets/images/lg/e_citrica.png" alt="ensalada citrica" style="width:auto;">
+                <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/e_goth.png">
+                <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/e_goth.png">
+                <img class="w-100" src="assets/images/lg/e_goth.png" alt="ensalada goth" >
               </picture>
             </div>
             <div class="carousel-item">
               <picture>
-                <source class="w-100" media="(min-width:768px)" srcset="assets/images/sm/e_rollitos.png">
-                <img class="w-100" src="assets/images/lg/e_rollitos.png" alt="ensalada rollitos" style="width:auto;">
+                <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/e_citrica.png">
+                <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/e_citrica.png">
+                <img class="w-100" src="assets/images/lg/e_citrica.png" alt="ensalada citrica" >
+              </picture>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/e_rollitos.png">
+                <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/e_rollitos.png">
+                <img class="w-100" src="assets/images/lg/e_rollitos.png" alt="ensalada rollitos" >
               </picture>
               
             </div>
@@ -328,16 +365,25 @@
     <!-- ROW PANINIS-->
     <div class="row">
       <!-- PANINIS SECTION-->
-      <div class="relative-space col-sm-12 col-lg-6">
+      <div class="relative-space col-lg-6 col-md-6 col-sm-12 p-2">
         <img class="w-100 p-3" src="assets/menu_images/paninis.png" alt="">
-        <img class="w-100" src="assets/images/panini.png" alt="panini1">
+        <picture>
+          <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/panini.png">
+          <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/panini.png">
+          <img class="w-100" src="assets/images/lg/panini.png" alt="panini">
+        </picture>
       </div>
       <!-- CAFES SECTION -->
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="h-100">
           <div class="flex-center-center flex-column">
             <img class="p-3 w-100" src="assets/menu_images/cafes.png" alt="">
-            <img class="w-75" src="assets/images/cafecito2.png">
+            <picture>
+                <source class="w-100" media="(max-width:440px)" srcset="assets/images/xs/cafecito2.png">
+                <source class="w-100" media="(max-width:768px)" srcset="assets/images/sm/cafecito2.png">
+              <img class="w-100" src="assets/images/lg/cafecito2.png" alt="ensalada rollitos" >
+            </picture>
+            
           </div>
         </div>
       </div>
@@ -363,26 +409,46 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/promo/LUNES.png" class="d-block w-100" alt="2585">
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/LUNES.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/LUNES.png">
+                    <img class="w-100" src="assets/promo/lg/LUNES.png" alt="Flowers" >
+                  </picture>
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/promo/MARTES.png" class="d-block w-100" alt="smoothies">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
-                  </div>
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/MARTES.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/MARTES.png">
+                    <img class="w-100" src="assets/promo/lg/MARTES.png" alt="promocion martes" >
+                  </picture>
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/promo/MIERCOLES.png" class="d-block w-100" alt="promotion 3 smoothies">
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/MIERCOLES.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/MIERCOLES.png">
+                    <img class="w-100" src="assets/promo/lg/MIERCOLES.png" alt="promocion miercoles" >
+                  </picture>
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/promo/JUEVES.png" class="d-block w-100" alt="pormocion jueves">
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/JUEVES.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/JUEVES.png">
+                    <img class="w-100" src="assets/promo/lg/JUEVES.png" alt="promocion jueves" >
+                  </picture>
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/promo/VIERNES.png" class="d-block w-100" alt="promocion viernes">
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/VIERNES.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/VIERNES.png">
+                    <img class="w-100" src="assets/promo/lg/VIERNES.png" alt="promocion viernes" >
+                  </picture>
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/promo/SABADO.png" class="d-block w-100" alt="promocion sabado">
+                  <picture>
+                    <source class="w-100" media="(max-width:440px)" srcset="assets/promo/xs/SABADO.png">
+                    <source class="w-100" media="(max-width:768px)" srcset="assets/promo/sm/SABADO.png">
+                    <img class="w-100" src="assets/promo/lg/SABADO.png" alt="sabados de paninis" >
+                  </picture>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#slide_in5" role="button" data-slide="prev">
